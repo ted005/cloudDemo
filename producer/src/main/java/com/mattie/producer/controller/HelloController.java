@@ -8,6 +8,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String sayHello() {
+        System.out.println("trigger jenkins auto build...");
         return "hello spring cloud";
     }
  }
